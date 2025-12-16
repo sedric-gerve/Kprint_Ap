@@ -12,7 +12,7 @@
     <div>
       @auth
       @else
-      <a href="assets{{'images/cabin.png'}}"
+      <a href="{{ asset('images/cabin.png') }}"
         class="inline-block border-2 border-white 
         text-white py-2 px-4 rounded-xl uppercase mt-2
          hover:text-black hover:border-black" download>Telecharger notre catalogue</a>
