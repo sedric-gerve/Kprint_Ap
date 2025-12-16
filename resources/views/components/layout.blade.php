@@ -68,7 +68,7 @@
                 <span></span>
             </div>
 
-            <a href="https://themesberg.com/product/tailwind-css/landing-page"
+            <a href="/images/Cours 5 - Print.pdf" download
                 class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">Download</a>
             <button data-collapse-toggle="mobile-menu-2" type="button"
 				class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -108,22 +108,22 @@
 <div id="dropdown" class="z-10 hidden B bg-black border border-default-medium rounded-base shadow-lg w-44">
     <ul class="p-2 bg-blue text-sm text-body font-medium" aria-labelledby="dropdownDefaultButton">
       <li>
-        <a href="#" class="inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded">Dashboard</a>
+        <a href="#" class="inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded">SERIGRAPHIE</a>
       </li>
       <li>
-        <a href="#" class="inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded">Settings</a>
+        <a href="#" class="inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded">BRODERIE</a>
       </li>
       <li>
-        <a href="#" class="inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded">Earnings</a>
+        <a href="#" class="inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded">IMPRESSION TEXTILE</a>
       </li>
       <li>
-        <a href="#" class="inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded">Sign out</a>
+        <a href="#" class="inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded">IMPRESSION UV</a>
       </li>
     </ul>
 </div>
 
                 <li>
-                    <a href="#"
+                    <a href="/team"
                         class="block py-2 pl-3 pr-4 text-white-700
                          border-b border-gray-100 hover:bg-gray-50 
                          lg:hover:bg-transparent lg:border-0 

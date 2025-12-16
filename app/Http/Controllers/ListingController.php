@@ -103,4 +103,7 @@ class ListingController extends Controller
     public function contact() {
         return view('listings.contact');
 }
+public function team() {
+    return view('listings.team');
+}
 }
