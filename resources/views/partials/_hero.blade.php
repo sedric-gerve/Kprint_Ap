@@ -4,10 +4,10 @@
 
   <div class="z-10 border-4 bg-laravel border-white py-2 px-4 rounded-xl ">
     <h1 class="text-6xl font-bold uppercase text-white">
-      K<span class="text-black">PRINT</span>
+      K-<span class="text-black">PRINT</span>
     </h1>
     <p class="text-2xl text-gray-200 font-bold my-4">
-      BIENVENU CHEZ KPRINT IMPRIMERIE & SERVICES GRAPHIQUES
+      BIENVENU CHEZ K-PRINT IMPRIMERIE & SERVICES GRAPHIQUES
     </p>
     <div>
       @auth

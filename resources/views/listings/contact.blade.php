@@ -74,8 +74,8 @@
             </div>
 
           <button 
-            class="text-white bg-slate-900 font-medium hover:bg-slate-800 tracking-wide text-sm px-4 py-2.5 w-full border-0 outline-0 cursor-pointer">Send message</button>
-            <a href="/" class="text-black ml-4"> Back </a>
+            class="h-10 w-20 text-white rounded-lg bg-red-500 hover:bg-red-600">
+            <a href="/" class=" ml-4"> Back </a></button>
         </form>
       </div>
 </x-layout>
