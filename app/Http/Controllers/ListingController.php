@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Contact;
 use App\Models\Listing;
 use Illuminate\Http\Request;
 use Illuminate\Validation\Rule;
@@ -106,4 +107,21 @@ class ListingController extends Controller
 public function team() {
     return view('listings.team');
 }
+public function about() {
+    return view('listings.about');
+}
+ // Store Listing Data
+    public function storeContact(Request $request) {
+        $formFields = $request->validate([
+            'name' => 'nullable',
+            'email' => ['nullable', 'email'],
+            'company' => 'nullable',
+            'contact_number' => 'nullable',
+            'message' => 'nullable'
+        ]);
+        Contact::create($formFields);
+
+        return redirect('/')->with('message', 'Contact created successfully!');
+    }
+
 }

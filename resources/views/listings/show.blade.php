@@ -14,7 +14,7 @@
         <x-listing-tags :tagsCsv="$listing->tags" />
         <div class="border border-gray-200 w-full mb-6"></div>
         <div>
-          <h3 class="text-3xl font-bold mb-4">Job Description</h3>
+          <h3 class="text-3xl font-bold mb-4"> Description</h3>
           <div class="text-lg space-y-6">
             {{$listing->description}}
 
