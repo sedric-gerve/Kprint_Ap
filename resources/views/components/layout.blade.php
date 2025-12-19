@@ -69,7 +69,7 @@
             </div>
 
             <a href="/images/Cours 5 - Print.pdf" download
-                class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">Download</a>
+                class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">TELECHARGER NOTRE CATALOGUE</a>
             <button data-collapse-toggle="mobile-menu-2" type="button"
 				class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
 				aria-controls="mobile-menu-2" aria-expanded="true">
@@ -93,13 +93,8 @@
                         border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 
                         dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Accueil</a>
                 </li>
-                <li>
-                    <a href="/about"
-                        class="block py-2 pl-3 pr-4 text-white-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">A propos </a>
-                </li>
-                
-<button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="inline-flex items-center justify-center text-white bg-brand box-border border border-transparent hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none" type="button">
-  Services
+                <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="inline-flex items-center justify-center text-white bg-brand box-border border border-transparent hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none" type="button">
+  A PROPOS
   <svg class="w-4 h-4 ms-1.5 -me-0.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7"/></svg>
 </button>
 
@@ -107,18 +102,40 @@
 <div id="dropdown" class="z-10 hidden B bg-black border border-default-medium rounded-base shadow-lg w-44">
     <ul class="p-2 bg-blue text-sm text-body font-medium" aria-labelledby="dropdownDefaultButton">
       <li>
-        <a href="#" class="inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded">SERIGRAPHIE</a>
+        <a href="/about" class="inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded lg:hover:text-purple-700">QUI SOMME NOUS</a>
       </li>
       <li>
-        <a href="#" class="inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded">BRODERIE</a>
+        <a href="/devise" class="inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded lg:hover:text-purple-700">NOS VISIONS-MISSIONS-VALEURS</a>
       </li>
-      <li>
-        <a href="#" class="inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded">IMPRESSION TEXTILE</a>
-      </li>
-      <li>
-        <a href="#" class="inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded">IMPRESSION UV</a>
-      </li>
-    </ul>
+</ul>
+</div>
+                
+<!-- Include this script tag or install `@tailwindplus/elements` via npm: -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script> -->
+
+
+<div class="relative inline-block text-left">
+    <div class="group">
+        <button type="button"
+            class="inline-flex justify-center items-center w-full px-4 py-2 text-sm font-medium text-white bg-gray-800 hover:bg-gray-700 focus:outline-none focus:bg-gray-700">
+            SERVICES
+            <!-- Dropdown arrow -->
+            <svg class="w-4 h-4 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 12l-5-5h10l-5 5z" />
+            </svg>
+        </button>
+
+        <!-- Dropdown menu -->
+        <div
+            class="absolute left-0 w-40 mt-1 origin-top-left bg-white divide-y divide-gray-100 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-300">
+            <div class="py-1">
+                <a href="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">BRODERIE INDUSTRIELLE</a>
+                <a href="/contact" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">SERIGRAPHIE MODERNE</a>
+                <a href="/contact" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">IMPRESSION NUMERIQUE HD</a>
+                <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">VENTE DES SUPPORTS A IMPRESSION ET DE COMMUNICATION</a>
+            </div>
+        </div>
+    </div>
 </div>
 
                 <li>
@@ -129,23 +146,23 @@
                          lg:hover:text-purple-700 lg:p-0 
                          dark:text-gray-400 lg:dark:hover:text-white
                           dark:hover:bg-gray-700 dark:hover:text-white
-                           lg:dark:hover:bg-transparent dark:border-gray-700">Notre Equipe</a>
+                           lg:dark:hover:bg-transparent dark:border-gray-700">NOTRE EQUIPES</a>
                 </li>
                 <li>
                     <a href="#"
-                        class="block py-2 pl-3 pr-4 text-white-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Nos realisations</a>
+                        class="block py-2 pl-3 pr-4 text-white-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">NOS REALISATIONS</a>
                 </li>
                 <li>
                     <a href="/contact"
-                        class="block py-2 pl-3 pr-4 text-white-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Devis Client</a>
+                        class="block py-2 pl-3 pr-4 text-white-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">ESPACES CLIENT</a>
                 </li>
                   <li>
                     <a href=""
-                        class="block py-2 pl-3 pr-4 text-white-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Nos clients</a>
+                        class="block py-2 pl-3 pr-4 text-white-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">NOS CLIENT</a>
                 </li>
                 <li>
                     <a href="/contact"
-                        class="block py-2 pl-3 pr-4 text-white-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+                        class="block py-2 pl-3 pr-4 text-white-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">CONTACTEZ NOUS</a>
                 </li>
             </ul>
         </div>
